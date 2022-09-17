@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.profile{
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Media/am3.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    }
+.child{
+    height: 50vh;
+    width: 50%;
+    box-shadow: 0 0 5px gray;
+    background-color: rgba(255, 255, 255, .1);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.proimage{
+    height: 200px;
+    width:200px;
+    background-color: black;
+    overflow: hidden;
+}
+.dp{
+    width:100%    
+}
+.name{
+    font-size: 40px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: whitesmoke;
+}
+.desig{
+    font-size: 30px;
+    font-family: 'Square Peg', cursive;
+    color: whitesmoke;
+}
+.icons{
+    font-size: 17.5px;
+    color: whitesmoke;
+}
+i{
+    cursor: pointer;
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+.projects{
+    width: 100%;
+    padding: 50px 10%;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    font-family: 'Shadows Into Light', cursive;
+    color: whitesmoke;
+    background-image: url('Media/am live.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+.works{
+    width: 100%;
+    padding: 20px;
+    padding-top: 20px;
+    box-shadow: 0 0 5px gray;
+    background-color: rgba(255, 255, 255, .1);
+    display: flex;
+    column-gap: 13.9%;
+    row-gap: 25px;
+    flex-wrap: wrap;
+}
+.work{
+    height: 300px;
+    width: 24%;
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+.work_detail{
+    background-color: black;
+    height: 54px;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    color: whitesmoke;
+    transition: 0.5s;
+    display: grid;
+}
+.work_detail:hover
+{
+    height: 100%;
+}
+.hovering{
+    clip-path: inset(0 0 70px 0);
+    
+}
+.hovering:hover{
+    
+    clip-path: inset(0 0 calc(-1*var(--h)) 0);    
+}
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    color: whitesmoke;
+    overflow: hidden;
+  }
+.work:nth-child(1){
+    background-image:url('Media/Am art.jpg');
+}
+.work:nth-child(2){
+    background-image: url('Media/fwn.jpg');
+}
+.work:nth-child(3){
+    background-image: url('Media/album1.jpg');
+}
+.work:nth-child(4){
+    background-image: url('Media/tbhc.png');
+}
+.work:nth-child(5){
+    background-image: url('Media/humbug.jpg');
+}
+.work:nth-child(6){
+    background-image: url('Media/sias.jpg');
+}
+.info{
+    height: 100vh;
+    width: 100%;
+    background-color: darkslategray;
+    box-shadow: 0 0 5 gray;
+    padding: 100px 10%;
+    display: flex;
+    column-gap: 200px;
+    background-image: url('Media/stage.jpg');
+    background-size: contain;
+    background-blend-mode: darken; 
+    
+}
+.about{
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .1);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.video{
+    height: 500px;
+    width: 666px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .1);
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.text1{
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+    color: whitesmoke;
+}
+.text2{
+    font-size: 25px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: lighter;
+    color: whitesmoke;
+}
